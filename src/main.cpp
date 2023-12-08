@@ -52,8 +52,8 @@ void myTimerEvent()
   Blynk.virtualWrite(V2, millis() / 1000);
   float humidity = dht.getHumidity();
   float temperature = dht.getTemperature();
-  Blynk.virtualWrite(V3, humidity);
-  Blynk.virtualWrite(V4, temperature);
+  Blynk.virtualWrite(V4, humidity);
+  Blynk.virtualWrite(V5, temperature);
 }
 
 void setup()
